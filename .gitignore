@@ -1,0 +1,23 @@
+# Android-specific files/folders
+.gradle/
+.idea/
+local.properties
+*.iml
+build/
+captures/
+output.json
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Keystore files (private)
+*.keystore
+*.jks
