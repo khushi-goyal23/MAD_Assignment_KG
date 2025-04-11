@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">LottieAnimationAppKG</string>
+    <string name="play_animation">Play Animation</string>
 </resources>
