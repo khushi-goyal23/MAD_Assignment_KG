@@ -20,7 +20,7 @@
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
             android:elevation="4dp"
-            app:title="Unit Converter Theme Setting"
+            app:title="Unit Converter"
             app:titleTextColor="@android:color/white"
             />
 
