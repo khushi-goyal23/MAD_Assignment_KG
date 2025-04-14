@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PhotoGalleryAppKG</string>
+    <string name="delete_image">Delete Image</string>
+    <string name="image_description">Photo displayed in the app</string>
+    <string name="select_folder">Select Folder</string>
+    <string name="take_photo">Take photo</string>
 </resources>
