@@ -4,4 +4,6 @@
     <string name="image_description">Photo displayed in the app</string>
     <string name="select_folder">Select Folder</string>
     <string name="take_photo">Take photo</string>
+    <string name="photo_gallery">Photo Gallery</string>
+    <string name="gallery_view">Gallery</string>
 </resources>

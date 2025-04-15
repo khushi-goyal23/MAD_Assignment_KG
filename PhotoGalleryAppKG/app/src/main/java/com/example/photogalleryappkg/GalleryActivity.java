@@ -6,6 +6,7 @@ import android.os.Environment;
 import android.widget.GridView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import java.io.File;
 
@@ -18,6 +19,15 @@ public class GalleryActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gallery);
+
+        Toolbar toolbar = findViewById(R.id.galleryToolbar);
+        setSupportActionBar(toolbar);
+
+// Show back button on the toolbar
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        }
+
 
         gridView = findViewById(R.id.gridView);
 
@@ -37,4 +47,10 @@ public class GalleryActivity extends AppCompatActivity {
             startActivity(intent);
         });
     }
+    @Override
+    public boolean onSupportNavigateUp() {
+        finish(); // Navigate back to MainActivity
+        return true;
+    }
+
 }

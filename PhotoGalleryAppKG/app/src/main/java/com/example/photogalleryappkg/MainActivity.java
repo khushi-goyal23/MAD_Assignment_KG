@@ -16,6 +16,7 @@ import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.FileProvider;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
@@ -58,6 +59,11 @@ public class MainActivity extends AppCompatActivity {
         requestPermissions();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Toolbar toolbar = findViewById(R.id.toolbar); // same ID as in XML
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayShowTitleEnabled(true); // 🔥 Make sure title is shown
+        getSupportActionBar().setTitle("Photo Gallery App");
 
         btnTakePhoto = findViewById(R.id.btnTakePhoto);
         btnSelectFolder = findViewById(R.id.btnSelectFolder);
