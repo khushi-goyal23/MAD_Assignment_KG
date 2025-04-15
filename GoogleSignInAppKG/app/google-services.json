@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "474665282533",
-    "project_id": "signinginapp",
-    "storage_bucket": "signinginapp.firebasestorage.app"
+    "project_number": "932094205573",
+    "project_id": "authentication-b986c",
+    "storage_bucket": "authentication-b986c.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:474665282533:android:7dc3493ce7eb6aae381d0c",
+        "mobilesdk_app_id": "1:932094205573:android:11f876a1d9b707a87b93ec",
         "android_client_info": {
-          "package_name": "com.example.googlesigninappkg"
+          "package_name": "com.example.a4_googleauthentication"
         }
       },
       "oauth_client": [
         {
-          "client_id": "474665282533-rdd18pop8s0o59an0m3jtmc08pckp7i4.apps.googleusercontent.com",
+          "client_id": "932094205573-9gguc1geaqvph554ur3a9v5enrmf5acf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a4_googleauthentication",
+            "certificate_hash": "ed536af0f5c96925799f885d922993c21471c789"
+          }
+        },
+        {
+          "client_id": "932094205573-sebpftfte84o88p8pd9ln5j44fkgp8pn.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCi3G5CP7dgJRb3qIZ-VOBetALU3pvydbY"
+          "current_key": "AIzaSyCDxQ4BhJIZndV_eBCmEcJKinZB9IePtIE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "474665282533-rdd18pop8s0o59an0m3jtmc08pckp7i4.apps.googleusercontent.com",
+              "client_id": "932094205573-sebpftfte84o88p8pd9ln5j44fkgp8pn.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

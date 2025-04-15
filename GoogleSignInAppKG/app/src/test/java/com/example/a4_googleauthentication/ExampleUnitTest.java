@@ -1,4 +1,4 @@
-package com.example.googlesigninappkg;
+package com.example.a4_googleauthentication;
 
 import org.junit.Test;
 
